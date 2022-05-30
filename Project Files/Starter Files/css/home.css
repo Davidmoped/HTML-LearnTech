@@ -42,11 +42,21 @@ section#courses {
     justify-content: center;
     padding: 40px;
     align-items: center;
+    background-color: rgb(228, 228, 228);
+
     
 }
 
 .CoursesSub{
     text-align: center;
+}
+
+div.course img {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
 }
 
 div.course {
@@ -57,6 +67,12 @@ div.course {
     cursor: pointer;
     transition: all 0.3s ease 0s;
     padding-bottom: 0.6rem;
+    text-align: center;
+}
+
+div.card-wrapper {
+    text-align: left;
+    padding: 0 0.80rem;
 }
 
 div.course:hover{
@@ -94,7 +110,7 @@ h6 {
 section#about {
 
     display: grid;
-    grid-template: repeat(1fr);
+    grid-template: repeat(auto);
     grid-gap: 0.85rem;
     justify-content: center;
     width: 100%;
@@ -112,7 +128,7 @@ div.about {
 div.students {
     grid-row: 2;
     grid-column: 1;
-    width: 300px;
+    padding: 0 25px;
     height: 200px;
     background: black;
     text-align: center;
@@ -120,8 +136,9 @@ div.students {
 }
 
 div.reviews {
+    grid-row: 2;
     grid-column: 2;
-    width: 300px;
+    padding: 0 25px;
     height: 200px;
     background: black;
     text-align: center;
@@ -129,8 +146,9 @@ div.reviews {
 } 
 
 div.courses {
+    grid-row: 2;
     grid-column: 3;
-    width: 300px;
+    padding: 0 25px;
     height: 200px;
     background: black;
     text-align: center;
@@ -138,8 +156,9 @@ div.courses {
 }
 
 div.content {
+    grid-row: 2;
     grid-column: 4;
-    width: 300px;
+    padding: 0 25px;
     height: 200px;
     background: black;
     text-align: center;
@@ -162,36 +181,52 @@ section#learntech {
     display: grid;
     grid-template: repeat(1fr);
     justify-content: center;
-    grid-gap: 0.85rem;
+    grid-gap: 1rem;
+    text-align: center;
+    padding: 40px 0;
+    background-color: rgb(228, 228, 228);
+
 }
 
 div.learntechnow {
     grid-column: 1;
-    width: 400px;
     height: 500px;
     background: white;
     border: 1px solid transparent;
+    overflow: hidden;
+    border-radius: 0.3rem;
+    transition: all 0.3s ease 0s;
 }
 
 div.learntechpodcast {
     grid-column: 2;
-    width: 400px;
     height: 500px;
     background: white;
     border: 1px solid transparent;
+    overflow: hidden;
+    border-radius: 0.3rem;
+    transition: all 0.3s ease 0s;
 }
 
 div.learntechblog {
     grid-column: 3;
-    width: 400px;
     height: 500px;
     background: white;
     border: 1px solid transparent;
+    overflow: hidden;
+    border-radius: 0.3rem;
+    transition: all 0.3s ease 0s;
 }
 
 .h1lt {
+    grid-column: 1/4;
     text-align: center;
     justify-content: center;
+}
+
+
+section#learntech div:hover{
+    box-shadow: 0 0.3rem 0.6rem rgba(0, 0, 0, 0.3);
 }
 
 /*
