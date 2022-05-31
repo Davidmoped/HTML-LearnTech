@@ -192,7 +192,7 @@ div.learntechnow {
     grid-column: 1;
     height: 500px;
     background: white;
-    border: 1px solid transparent;
+    border: 0.5rem;
     overflow: hidden;
     border-radius: 0.3rem;
     transition: all 0.3s ease 0s;
@@ -202,7 +202,7 @@ div.learntechpodcast {
     grid-column: 2;
     height: 500px;
     background: white;
-    border: 1px solid transparent;
+    border: 0.5rem;
     overflow: hidden;
     border-radius: 0.3rem;
     transition: all 0.3s ease 0s;
@@ -212,7 +212,7 @@ div.learntechblog {
     grid-column: 3;
     height: 500px;
     background: white;
-    border: 1px solid transparent;
+    border: 0.5rem;
     overflow: hidden;
     border-radius: 0.3rem;
     transition: all 0.3s ease 0s;
