@@ -11,25 +11,32 @@
 section#courses {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 20px;
+    padding: 0 40px 40px 40px;
 }
 
 div.plan-card {
-    text-align: center;
     width: 400px;
     height: 300px;
     background: white;
-    border: solid rgba(17, 17, 17, 0.123) 5px;
+    border: solid rgba(17, 17, 17, 0.123) 2px;
     border-radius: 0.5rem;
+    padding: 15px;
+}
+section#courses div.plan-card > ul.list-plant {
+    list-style-type: georgian !important;
+}
+
+.wrapper {
+    justify-content: center;
+    align-content: center;
 }
 
 h6 {
 	font-size: 1em;
 }
 
-ul {
-    list-style-type: disc;
-}
 /*
 ====================================================================================================================================================================
                                                     End Premium Plus Page 
